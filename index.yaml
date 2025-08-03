@@ -3,11 +3,12 @@ entries:
   user-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-03T16:49:26.621372789Z"
-    description: A Helm chart for the FastAPI user-service
-    digest: f1e0133b07db59620da45a205493cc4b8e6faf16e62b0e5370401c37d1d9f56e
+    created: "2025-08-03T18:40:29.263845009Z"
+    description: A Helm chart for Kubernetes user-service
+    digest: 392801bb87ca8710c2cf4f75c7be438b500104374a17508c58522fdc692f2928
     name: user-service
+    type: application
     urls:
     - https://tara-cloud.github.io/helm-charts/user-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-03T16:49:26.62108416Z"
+generated: "2025-08-03T18:40:29.263473276Z"

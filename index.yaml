@@ -3,12 +3,12 @@ entries:
   user-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-03T20:05:54.215464247Z"
+    created: "2025-08-04T01:56:45.090885401Z"
     description: A Helm chart for Kubernetes user-service
-    digest: e7c564096d275865e543d9d0057e0e9c882a2632173946f4977478bf4f4858ae
+    digest: 295faa66021fbb0012f408e71f8916da71d2f009b56cbf0142bb6387ef482429
     name: user-service
     type: application
     urls:
     - https://tara-cloud.github.io/helm-charts/user-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-03T20:05:54.215178875Z"
+generated: "2025-08-04T01:56:45.090507744Z"

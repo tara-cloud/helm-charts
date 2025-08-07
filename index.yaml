@@ -3,7 +3,7 @@ entries:
   dummy-welcome:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-07T03:56:39.214135839Z"
+    created: "2025-08-07T04:15:57.246866819Z"
     description: A Helm chart for the Flask dummy welcome website
     digest: 56c1b515ac758beb1a596bf0dda8d3aa2bfd1b0575136775fc69256eb8181f62
     name: dummy-welcome
@@ -13,9 +13,9 @@ entries:
   test-service:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-07T03:56:39.214680628Z"
+    created: "2025-08-07T04:15:57.247289292Z"
     description: A Helm chart for the Flask dummy welcome website
-    digest: cacde0515aa1fdf58cb611021cf2f31b02c919a22158e4645fe00d1a826a84f6
+    digest: 753db9bc3773c5f9ad0defb295a2f90078f204d1f682855334073efc8978455b
     name: test-service
     urls:
     - https://tara-cloud.github.io/helm-charts/test-service-0.1.0.tgz
@@ -23,7 +23,7 @@ entries:
   user-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-07T03:56:39.215140999Z"
+    created: "2025-08-07T04:15:57.247958027Z"
     description: A Helm chart for Kubernetes user-service
     digest: 6523f613f2ab340f32abd50c6ed896a4410edf37a4d1c1ad166e54c2b539304a
     name: user-service
@@ -31,4 +31,4 @@ entries:
     urls:
     - https://tara-cloud.github.io/helm-charts/user-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-07T03:56:39.213808827Z"
+generated: "2025-08-07T04:15:57.246011133Z"

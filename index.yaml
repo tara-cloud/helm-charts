@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  authentication-service:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-08-09T02:52:18.958320001Z"
+    description: Authentication Service for Tara Cloud Platform
+    digest: f090890de165cadd3dbf1d53eac6f6c071ce46a9b292a1fffb3d8e2e11ee643b
+    name: authentication-service
+    type: application
+    urls:
+    - https://tara-cloud.github.io/helm-charts/authentication-service-0.1.0.tgz
+    version: 0.1.0
   dummy-welcome:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-07T07:44:11.436074403Z"
+    created: "2025-08-09T02:52:18.958673209Z"
     description: A Helm chart for the Flask dummy welcome website
     digest: 56c1b515ac758beb1a596bf0dda8d3aa2bfd1b0575136775fc69256eb8181f62
     name: dummy-welcome
@@ -13,7 +24,7 @@ entries:
   test-service:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-07T07:44:11.436221339Z"
+    created: "2025-08-09T02:52:18.959150899Z"
     description: A Helm chart for the Flask dummy welcome website
     digest: 09ba716f0155a0d8c28e2cf70a5c1c2fa8dfdb7d22485f0feea3e45ea2c7a6e9
     name: test-service
@@ -23,7 +34,7 @@ entries:
   user-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-07T07:44:11.436386669Z"
+    created: "2025-08-09T02:52:18.959485202Z"
     description: A Helm chart for Kubernetes user-service
     digest: 6523f613f2ab340f32abd50c6ed896a4410edf37a4d1c1ad166e54c2b539304a
     name: user-service
@@ -31,4 +42,4 @@ entries:
     urls:
     - https://tara-cloud.github.io/helm-charts/user-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-07T07:44:11.435796302Z"
+generated: "2025-08-09T02:52:18.957463044Z"

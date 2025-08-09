@@ -2,10 +2,15 @@ apiVersion: v1
 entries:
   authentication-service:
   - apiVersion: v2
-    appVersion: 0.0.1
-    created: "2025-08-09T02:52:18.958320001Z"
+    appVersion: 0.1.0
+    created: "2025-08-09T03:51:03.209496237Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.5.34
     description: Authentication Service for Tara Cloud Platform
-    digest: f090890de165cadd3dbf1d53eac6f6c071ce46a9b292a1fffb3d8e2e11ee643b
+    digest: 8f079b7cc1a11bd2a7927d8822dd977dcdeb0c9f1f5dcf325eda89a6d99aec2f
     name: authentication-service
     type: application
     urls:
@@ -14,7 +19,7 @@ entries:
   dummy-welcome:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-09T02:52:18.958673209Z"
+    created: "2025-08-09T03:51:03.209657067Z"
     description: A Helm chart for the Flask dummy welcome website
     digest: 56c1b515ac758beb1a596bf0dda8d3aa2bfd1b0575136775fc69256eb8181f62
     name: dummy-welcome
@@ -24,7 +29,7 @@ entries:
   test-service:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-09T02:52:18.959150899Z"
+    created: "2025-08-09T03:51:03.209805074Z"
     description: A Helm chart for the Flask dummy welcome website
     digest: 09ba716f0155a0d8c28e2cf70a5c1c2fa8dfdb7d22485f0feea3e45ea2c7a6e9
     name: test-service
@@ -34,7 +39,7 @@ entries:
   user-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-09T02:52:18.959485202Z"
+    created: "2025-08-09T03:51:03.209951538Z"
     description: A Helm chart for Kubernetes user-service
     digest: 6523f613f2ab340f32abd50c6ed896a4410edf37a4d1c1ad166e54c2b539304a
     name: user-service
@@ -42,4 +47,4 @@ entries:
     urls:
     - https://tara-cloud.github.io/helm-charts/user-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-09T02:52:18.957463044Z"
+generated: "2025-08-09T03:51:03.202651962Z"

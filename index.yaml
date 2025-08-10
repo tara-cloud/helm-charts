@@ -3,14 +3,14 @@ entries:
   authentication-service:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-08-10T10:02:28.372246852Z"
+    created: "2025-08-10T11:27:59.75329286Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 15.5.34
     description: Authentication Service for Tara Cloud Platform
-    digest: 04e554d0360a3498030d57316c691a80b6dbaa4df57910eb86b180c4d7eb1c6a
+    digest: 09a4c4fdb4f5de5a995b8b2383ee99f3c7fcdede2906bbdff5a31843d97642da
     name: authentication-service
     type: application
     urls:
@@ -19,7 +19,7 @@ entries:
   cloud-ui:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2025-08-10T10:02:28.373192373Z"
+    created: "2025-08-10T11:27:59.754230886Z"
     description: A Helm chart for Cloud UI Next.js application
     digest: 84bcbe090328ca42a38dc33d3b56ec104b3768a4b8d66ecaca556ed8d43e744a
     home: https://github.com/tara-cloud/cloud-ui
@@ -40,7 +40,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-08-10T10:02:28.372797559Z"
+    created: "2025-08-10T11:27:59.753788047Z"
     description: A Helm chart for Cloud UI Next.js application
     digest: 6b62249f22db44a9265ca6e75f61d05135cd5868d9c73419c05a21d3ff34cc0c
     home: https://github.com/tara-cloud/cloud-ui
@@ -62,7 +62,7 @@ entries:
   dummy-welcome:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-10T10:02:28.373346333Z"
+    created: "2025-08-10T11:27:59.754419268Z"
     description: A Helm chart for the Flask dummy welcome website
     digest: 56c1b515ac758beb1a596bf0dda8d3aa2bfd1b0575136775fc69256eb8181f62
     name: dummy-welcome
@@ -72,7 +72,7 @@ entries:
   test-service:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-10T10:02:28.373508749Z"
+    created: "2025-08-10T11:27:59.754551476Z"
     description: A Helm chart for the Flask dummy welcome website
     digest: 09ba716f0155a0d8c28e2cf70a5c1c2fa8dfdb7d22485f0feea3e45ea2c7a6e9
     name: test-service
@@ -82,7 +82,7 @@ entries:
   user-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-10T10:02:28.373691102Z"
+    created: "2025-08-10T11:27:59.755104731Z"
     description: A Helm chart for Kubernetes user-service
     digest: 6523f613f2ab340f32abd50c6ed896a4410edf37a4d1c1ad166e54c2b539304a
     name: user-service
@@ -90,4 +90,4 @@ entries:
     urls:
     - https://tara-cloud.github.io/helm-charts/user-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-10T10:02:28.364798308Z"
+generated: "2025-08-10T11:27:59.747929622Z"

@@ -3,7 +3,7 @@ entries:
   authentication-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-13T16:40:28.372492466Z"
+    created: "2025-08-13T20:58:40.287188394Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -18,7 +18,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.1.9
-    created: "2025-08-13T16:40:28.367725878Z"
+    created: "2025-08-13T20:58:40.280849156Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -33,8 +33,29 @@ entries:
     version: 0.1.0
   cloud-ui:
   - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2025-08-13T20:58:40.289830713Z"
+    description: A Helm chart for Cloud UI Next.js application
+    digest: a9f2efe339eb6ac026d44c6d3b487466fb5a00b8ba7974c8510f5c8e0835e1f3
+    home: https://github.com/tara-cloud/cloud-ui
+    keywords:
+    - nextjs
+    - react
+    - frontend
+    - cloud-ui
+    maintainers:
+    - email: PMAnanthu@users.noreply.github.com
+      name: PMAnanthu
+    name: cloud-ui
+    sources:
+    - https://github.com/tara-cloud/cloud-ui
+    type: application
+    urls:
+    - https://tara-cloud.github.io/helm-charts/cloud-ui-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v2
     appVersion: 1.1.2
-    created: "2025-08-13T16:40:28.376774841Z"
+    created: "2025-08-13T20:58:40.289412682Z"
     description: A Helm chart for Cloud UI Next.js application
     digest: b45ddde394a04988763ba685d1f44196d0d7a9d8329700bff454b64685945f08
     home: https://github.com/tara-cloud/cloud-ui
@@ -55,7 +76,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2025-08-13T16:40:28.37625339Z"
+    created: "2025-08-13T20:58:40.288995392Z"
     description: A Helm chart for Cloud UI Next.js application
     digest: 32925a043dc6d89f595fec4906962cd25fd335600863db47d2aa0f7f6f9b39ce
     home: https://github.com/tara-cloud/cloud-ui
@@ -76,7 +97,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-08-13T16:40:28.37556504Z"
+    created: "2025-08-13T20:58:40.288568604Z"
     description: A Helm chart for Cloud UI Next.js application
     digest: dae85db851dd1873e16ce4f1736807958de0038599c3c7f3c8e586ed6ae89a9f
     home: https://github.com/tara-cloud/cloud-ui
@@ -97,7 +118,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2025-08-13T16:40:28.374611554Z"
+    created: "2025-08-13T20:58:40.288114195Z"
     description: A Helm chart for Cloud UI Next.js application
     digest: 84bcbe090328ca42a38dc33d3b56ec104b3768a4b8d66ecaca556ed8d43e744a
     home: https://github.com/tara-cloud/cloud-ui
@@ -118,7 +139,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-08-13T16:40:28.373753105Z"
+    created: "2025-08-13T20:58:40.287725789Z"
     description: A Helm chart for Cloud UI Next.js application
     digest: 6b62249f22db44a9265ca6e75f61d05135cd5868d9c73419c05a21d3ff34cc0c
     home: https://github.com/tara-cloud/cloud-ui
@@ -140,7 +161,7 @@ entries:
   dummy-welcome:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-13T16:40:28.376925833Z"
+    created: "2025-08-13T20:58:40.289975233Z"
     description: A Helm chart for the Flask dummy welcome website
     digest: 56c1b515ac758beb1a596bf0dda8d3aa2bfd1b0575136775fc69256eb8181f62
     name: dummy-welcome
@@ -150,7 +171,7 @@ entries:
   test-service:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2025-08-13T16:40:28.377056666Z"
+    created: "2025-08-13T20:58:40.290104385Z"
     description: A Helm chart for the Flask dummy welcome website
     digest: 09ba716f0155a0d8c28e2cf70a5c1c2fa8dfdb7d22485f0feea3e45ea2c7a6e9
     name: test-service
@@ -160,7 +181,7 @@ entries:
   user-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-13T16:40:28.377210082Z"
+    created: "2025-08-13T20:58:40.290258172Z"
     description: A Helm chart for Kubernetes user-service
     digest: 6523f613f2ab340f32abd50c6ed896a4410edf37a4d1c1ad166e54c2b539304a
     name: user-service
@@ -168,4 +189,4 @@ entries:
     urls:
     - https://tara-cloud.github.io/helm-charts/user-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-13T16:40:28.361131222Z"
+generated: "2025-08-13T20:58:40.275549972Z"
